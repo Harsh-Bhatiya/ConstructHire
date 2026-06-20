@@ -146,7 +146,7 @@ export const Login: React.FC = () => {
                   OTP Code
                 </label>
                 <span className="text-[10px] text-violet-400 font-semibold flex items-center gap-1">
-                  <HelpCircle className="w-3 h-3" /> Viva Demo Bypass: 123456
+                  <HelpCircle className="w-3 h-3" />  Demo Bypass: 123456
                 </span>
               </div>
               <div className="relative">
