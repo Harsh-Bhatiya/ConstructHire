@@ -21,7 +21,7 @@ export const Login: React.FC = () => {
       return;
     }
     if (otp !== "123456") {
-      setError("Incorrect OTP. For the BCA viva demo, use OTP: 123456.");
+      setError("Incorrect OTP. use OTP: 123456.");
       return;
     }
 
@@ -74,14 +74,13 @@ export const Login: React.FC = () => {
 
           <div className="space-y-4">
             <span className="inline-block px-3 py-1 bg-violet-500/10 border border-violet-500/20 text-violet-400 rounded-full text-xs font-extrabold tracking-wider uppercase">
-              BCA Viva Command Center
+              Empowering Blue-Collars
             </span>
             <h2 className="text-3xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">
-              Digitizing Construction Labor Hiring
+                Smart Daily-Wage  Marketplace
             </h2>
             <p className="text-gray-400 text-sm md:text-base leading-relaxed">
-              A location-aware construction labor marketplace providing verified workers, escrow protection, roster checkouts, and 2G/IVR features for offline workers.
-            </p>
+              A decentralized daily-wage marketplace connecting verified blue-collar workers with local contractors and customers securely through escrow protection.            </p>
           </div>
         </div>
 
